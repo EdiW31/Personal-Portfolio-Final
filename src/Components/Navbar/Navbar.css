@@ -1,0 +1,31 @@
+.navbar .navbar-nav .nav-item .nav-link {
+  position: relative;
+  text-decoration: none;
+}
+.navbar .navbar-brand{
+  letter-spacing: 3.2px;
+  color: rgb(55, 54, 54);
+}
+.navbar .navbar-brand span{
+  color: #FFAB9C;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  text-decoration: none;
+  color: #FFAB9C;
+}
+
+.navbar .navbar-nav .nav-item .nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #FFAB9C;
+  transition: width .3s;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover::after {
+  width: 100%;
+}
+.nav-item{
+    margin-left: 25px;
+}
