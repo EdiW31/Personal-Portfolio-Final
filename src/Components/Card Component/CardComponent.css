@@ -1,0 +1,114 @@
+.section1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+
+}
+.section1 .card{
+	background-color: #fff;
+	width: 280px;
+	border-radius: 33px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 2rem !important;
+}
+.section1 .top-container{
+	display: flex;
+	align-items: center;
+}
+.section1 .profile-image{
+	border-radius: 10px;
+	border: 2px solid #FFAB9C;
+    margin-right: 20px;
+}
+.section1 .name{
+	font-size: 15px;
+	font-weight: bold;
+	color: #272727;
+	position: relative;
+	top: 8px;
+}
+.section1 .mail{
+	font-size: 14px;
+	color: grey;
+	position: relative;
+	top: 2px;
+}
+.section1 .middle-container{
+	background-color: #eee;
+	border-radius: 12px;
+
+}
+.section1 .middle-container:hover {
+	border: 1px solid #FFAB9C;
+}
+.section1 .dollar-div{
+	background-color: #FFAB9C;
+	padding: 12px;
+	border-radius: 10px;
+}
+.section1 .round-div{
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.section1 .dollar{
+	font-size: 16px !important;
+	color: #FFAB9C !important;
+	font-weight: bold !important;
+}
+.section1 .current-balance{
+	font-size: 15px;
+	color: #272727;
+	font-weight: bold;
+}
+.section1 .amount{
+	color: #FFAB9C#FFAB9C;
+	font-size: 16px;
+	font-weight: bold;
+}
+.section1 .dollar-sign{
+	font-size: 16px;
+	color: #272727;
+	font-weight: bold;
+}
+
+.section1 .recent-border{
+	border-left: 2px solid #FFAB9C;
+	display: flex;
+	align-items: center;
+
+}
+.section1 .recent-border:hover {
+	border-bottom: 1px solid #dee2e6!important;
+    transition: 0.5s;
+}
+
+.section1 .recent-orders{
+	font-size: 16px;
+	font-weight: 700;
+	color: #FFAB9C;
+	margin-left: 2px;
+}
+
+.section1 .wishlist{
+	font-size: 16px;
+	font-weight: 700;
+	color: #272727;
+
+}
+.section1 .wishlist-border:hover{
+	border-bottom: 1px solid #dee2e6!important;
+}
+.section1 .fashion-studio{
+	font-size: 16px;
+	font-weight: 700;
+	color: #272727;
+}
+.section1 .fashion-studio-border:hover {
+	border-bottom: 1px solid #dee2e6!important;
+}
