@@ -8,8 +8,8 @@ const MyNavbar = (props) => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg d-flex mt-4 mx-5">
-        <a className="navbar-brand fs-2 px-auto" href="#">
+      <nav className="navbar navbar-expand-lg d-flex mt-4 mx-5  px-lg-5">
+        <a className="navbar-brand fs-2" href="#">
           <span>W</span>eiss Eduard
         </a>
         <button
