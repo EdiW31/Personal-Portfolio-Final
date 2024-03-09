@@ -12,7 +12,7 @@
 .text1{
     font-family: monospace;
     color: #FFAB9C;
-    letter-spacing: 11px;
+    letter-spacing: 9px;
 }
 @keyframes cursor {
     50% {border-color: transparent;}

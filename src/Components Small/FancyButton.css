@@ -1,4 +1,5 @@
 .container-fbtn button {
+  font-family: monospace;
   position: relative;
   display: inline-block;
   cursor: pointer;

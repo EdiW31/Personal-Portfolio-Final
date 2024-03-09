@@ -1,5 +1,6 @@
 import "./Navbar.css";
 import PropTypes from "prop-types";
+import { HashLink as Link } from "react-router-hash-link";
 
 const MyNavbar = (props) => {
   MyNavbar.propTypes = {
@@ -30,9 +31,12 @@ const MyNavbar = (props) => {
           <ul className="navbar-nav fs-5 ">
             {props.links.map((link, index) => (
               <li className="nav-item" key={index}>
-                <a className="nav-link" href="#">
+                <Link
+                  to={`#${link.toLowerCase().replace(" ", "-")}`}
+                  className="nav-link"
+                >
                   {link}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
