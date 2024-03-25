@@ -1,0 +1,121 @@
+.section-about-me{
+    font-family: monospace;
+}
+.section-about-me .about-text h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+.section-about-me .about-text h4 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.section-about-me .about-text p {
+  font-size: 14px;
+}
+.section-about-me .about-text p mark {
+  font-weight: 600;
+  color: #3a3973;
+}
+.section-about-me .about-text .btn-bar {
+  padding-top: 8px;
+}
+.section-about-me .about-text .btn-bar a {
+  min-width: 150px;
+  text-align: center;
+  margin-right: 10px;
+}
+.section-about-me .about-list {
+  padding-top: 10px;
+}
+.section-about-me .about-list .media {
+  padding: 5px 0;
+}
+.section-about-me .about-list label {
+  color: #3a3973;
+  font-weight: 600;
+  width: 88px;
+  margin: 0;
+  position: relative;
+}
+.section-about-me .about-list label:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 11px;
+  width: 1px;
+  height: 12px;
+  background: #3a3973;
+  -moz-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+  margin: auto;
+  opacity: 0.5;
+}
+.section-about-me .about-list p {
+  margin: 0;
+  font-size: 15px;
+}
+.section-about-me .about-img {
+  box-shadow: 0 5px 14px 0 rgba(0, 0, 0, 0.06);
+  padding: 10px;
+  background: #ffffff;
+}
+.section-about-me .counter-section {
+  padding: 40px 20px;
+}
+.section-about-me .counter-section .count-data {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.section-about-me .counter-section .count {
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 10px;
+}
+.section-about-me .counter-section p {
+  font-weight: 500;
+  margin: 0;
+  color: #FFAB9C;
+}
+.section-about-me .theme-color {
+    color: #FFAB9C;
+}
+
+.section-about-me .section {
+    padding: 100px 0;
+    position: relative;
+}
+.section-about-me .gray-bg {
+    background-color: #ebf4fa;
+}
+.section-about-me .px-btn.theme {
+    background: #FFAB9C;
+    color: #ffffff;
+    border: 2px solid #FFAB9C;
+}
+.section-about-me .px-btn {
+    padding: 0 20px;
+    line-height: 42px;
+    border: 2px solid transparent;
+    position: relative;
+    display: inline-block;
+    background: none;
+    border: none;
+    -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-about-me .px-btn.theme-t {
+    background: transparent;
+    border: 2px solid #FFAB9C;
+    color: #FFAB9C;
+}
