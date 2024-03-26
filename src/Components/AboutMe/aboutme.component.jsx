@@ -18,12 +18,12 @@ const AboutMe = () => {
               <p>
                 I like learning about new technologies, I&apos;m very passionate
                 about BlockChain and I&apos;m always looking for new challenges.
-                I&apos;m a quick learner and I will try my beste in learning and
+                I&apos;m a quick learner and I will try my best in learning and
                 developing new skills. I live in a small town in Romnania,
                 Cisnadie which is near Sibiu. I also like working with Kids, in
-                the weekends I&apos;m having with a team from Cisnadie activity
-                with the kids from the city and I&apos;m also a volunteer at
-                local Church.
+                the weekends I&apos;m having activities with a team from
+                Cisnadie with the kids from the city and I&apos;m also a
+                volunteer at local Church.
               </p>
               <div className="btn-bar">
                 <a className="px-btn theme-t" href="#">
