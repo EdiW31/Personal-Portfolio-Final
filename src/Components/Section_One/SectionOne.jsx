@@ -1,5 +1,6 @@
 import CardComponent from "../Card Component/CardComponent";
 import FancyButton from "../../Components Small/FancyButton";
+import me from "./../../assets/me.png";
 import "./SectionOne.css";
 
 const SectionOne = () => {
@@ -8,12 +9,7 @@ const SectionOne = () => {
       <div className="container d-lg-flex justify-content-center sectoin-one">
         {/*Left Part*/}
         <div className="m-5 left-part-sone">
-          <CardComponent
-            name="Weiss Eduard"
-            email="salut@gmail.com"
-            img="https://i.imgur.com/G1pXs7D.jpg"
-            proj={10}
-          />
+          <CardComponent name="Weiss Eduard" img={me} proj={3} />
         </div>
         {/*Right Part*/}
         <div className="m-5 d-flex flex-column pt-5 justify-content-center align-items-center">

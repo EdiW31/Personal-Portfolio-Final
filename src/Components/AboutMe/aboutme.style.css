@@ -1,6 +1,9 @@
 .section-about-me{
     font-family: monospace;
 }
+.section-about-me img{
+  max-width: 70%;
+}
 .section-about-me .about-text h3 {
   font-size: 30px;
   font-weight: 700;

@@ -23,13 +23,13 @@ const CardComponent = (props) => {
 
               <div className="ml-3">
                 <h5 className="name">{props.name}</h5>
-                <p className="mail">{props.email}</p>
+                <p className="p">Student</p>
               </div>
             </div>
             <div className="middle-container d-flex justify-content-around align-items-center mt-3 p-2">
               <div className="dollar-div">
                 <div className="round-div">
-                  <i className="fa fa-dollar dollar"></i>
+                  <i className="fa-solid fa-diagram-project"></i>
                 </div>
               </div>
               <div className="d-flex flex-column text-right mr-2">
@@ -41,10 +41,10 @@ const CardComponent = (props) => {
               <span className="recent-orders">Recent projects:</span>
             </div>
             <div className="wishlist-border pt-2">
-              <span className="wishlist">Online Magazine</span>
+              <span className="wishlist">Tetris</span>
             </div>
             <div className="fashion-studio-border pt-2">
-              <span className="fashion-studio">Fashion Firm Website</span>
+              <span className="fashion-studio">React App</span>
             </div>
           </div>
         </div>
